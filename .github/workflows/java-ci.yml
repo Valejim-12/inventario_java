@@ -25,4 +25,4 @@ jobs:
           cache: maven
 
       - name: Compilar, probar y empaquetar
-        run: mvn --batch-mode clean package
+        run: mvn --batch-mode clean packagegit

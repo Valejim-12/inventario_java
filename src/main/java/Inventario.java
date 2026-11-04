@@ -4,7 +4,7 @@ public class Inventario {
     }
     public static void main(String[] args) {
         int precio = 50;
-        int cantidad = 4;
+        int cantidad = diez;
         int valorTotal = calcularSubtotal(precio, cantidad);
         System.out.println("Subtotal: " + valorTotal);
     }
